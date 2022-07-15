@@ -1,0 +1,89 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+.form-box {
+  min-width: 100%;
+  height: 100vh;
+  border: dotted #F55A00 5vw;
+  margin: 0vw;
+  padding: 5vw;
+  position: relative;
+}
+
+.form-box h5 {
+  font-size: 35px;
+  text-align: center;
+  color: #F55A00;
+  margin: 0 0 .5vh 0;
+}
+
+.form-box input {
+  display: block;
+  width: 100%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+.prevBtn,
+.nextBtn {
+  display: inline-block;
+  width: 30%;
+  height: 2rem;
+  color: red;
+  border: 0;
+  bottom: 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+
+}
+
+.prevBtn {
+  margin: 1rem 0 1rem 0;
+  border-radius: 20px 0 0 20px;
+}
+
+.nextBtn {
+  margin: 1rem 0 1rem 8rem;
+  margin-left: 52%;
+  border-radius: 0 20px 20px 0;
+}
+
+.nextBtn:hover,
+.prevBtn:hover {
+  background-color: rgb(245, 245, 78);
+  transition: 1s background ease;
+}
+
+.btn{
+display: inline-block;
+  width: 30%;
+  height: 2rem;
+  color: red;
+  border: 0;
+  top: 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+}
